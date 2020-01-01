@@ -10,6 +10,8 @@ spring:
         server-addr: localhost:8848
         namespace: 840a3150-57d2-43ed-81ea-be337878f9dc
         shared-dataids: common.yaml,user-server.yaml
-        refreshable-dataids: common.yaml,task-server.yaml
+        refreshable-dataids: common.yaml,user-server.yaml
 server:
   port: 9001
+  servlet:
+    context-path: /user-server

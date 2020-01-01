@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: task-server
+          uri: lb://task-server
+          predicates:
+            - Path=/task-server/**
+        - id: user-server
+          uri: lb://user-server
+          predicates:
+            - Path=/**
