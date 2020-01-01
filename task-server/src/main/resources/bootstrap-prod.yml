@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: task-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        file-extension: yaml
+        server-addr: 127.0.0.1:8848
+        namespace: ef31acc0-2ee6-4b6b-9853-f468c6a3a30f
+
+server:
+  port: 9000

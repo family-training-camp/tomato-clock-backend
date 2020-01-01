@@ -1,0 +1,6 @@
+2019-12-31 09:00:32,470 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?serverTimezone=GMT%2B8&characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-12-31 09:00:32,559 WARN isQuickStart:false
+
+2019-12-31 09:00:32,695 WARN useAddressServer:true
+

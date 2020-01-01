@@ -1,0 +1,112 @@
+2020-01-01 11:15:30,098 INFO DEFAULT_GROUP@@user-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.103:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:15:30,100 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-server, ips: 192.168.0.103:9001_true,
+
+2020-01-01 11:28:54,386 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:28:54,387 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.103:9000_true,
+
+2020-01-01 11:29:45,053 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:29:45,053 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 11:29:52,078 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:29:52,078 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.103:9000_true,
+
+2020-01-01 11:30:22,876 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:30:22,876 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 11:30:28,544 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:30:28,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.103:9000_true,
+
+2020-01-01 11:32:58,062 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:32:58,063 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 11:33:08,510 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.103:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 11:33:08,510 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.103:9000_true,
+
+2020-01-01 21:14:01,125 INFO DEFAULT_GROUP@@user-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:14:01,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-server, ips: 192.168.0.106:9001_true,
+
+2020-01-01 21:14:05,158 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:14:05,158 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:18:33,830 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:18:33,830 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:18:39,484 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:18:39,484 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:21:49,205 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:21:49,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:21:55,036 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:21:55,036 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:39:05,557 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:39:05,557 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:47:19,463 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:47:19,463 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:47:44,958 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:47:44,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:47:50,776 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:47:50,776 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:51:26,774 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:51:26,774 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:51:33,984 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:51:33,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:52:55,391 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:52:55,391 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:53:01,296 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:53:01,296 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 21:53:16,516 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:53:16,516 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 
+
+2020-01-01 21:53:22,398 INFO DEFAULT_GROUP@@task-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 21:53:22,399 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@task-server, ips: 192.168.0.106:9000_true,
+
+2020-01-01 22:05:57,117 INFO DEFAULT_GROUP@@user-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 22:05:57,117 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-server, ips: 
+
+2020-01-01 22:06:04,140 INFO DEFAULT_GROUP@@user-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 22:06:04,140 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-server, ips: 192.168.0.106:9001_true,
+
+2020-01-01 22:07:46,760 INFO DEFAULT_GROUP@@user-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.106:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 22:07:46,760 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-server, ips: 
+
+2020-01-01 22:07:51,279 INFO DEFAULT_GROUP@@user-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.106:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-01 22:07:51,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-server, ips: 192.168.0.106:9001_true,
+

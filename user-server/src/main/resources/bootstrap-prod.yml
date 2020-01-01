@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: user-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        namespace: ef31acc0-2ee6-4b6b-9853-f468c6a3a30f
+        file-extension: yaml
+        server-addr: localhost:8848
+        shared-dataids: common.yaml,user-server.yaml
+        refreshable-dataids: common.yaml,task-server.yaml
+
+server:
+  port: 9001

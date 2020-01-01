@@ -1,0 +1,8 @@
+2020-01-01 11:15:16,501 INFO [dump-all-ok] test+DEFAULT_GROUP, 1577754071000, length=2, md5=99914b932bd37a50b983c5e7c90ae93b
+
+2020-01-01 21:13:44,487 INFO [dump-all-ok] task-server.yaml+DEFAULT_GROUP, 1577848808000, length=8, md5=08612ebe88301011c80f4b21c007b7ba
+
+2020-01-01 21:13:44,489 INFO [dump-all-ok] task-server.yaml+DEFAULT_GROUP, 1577849444000, length=10, md5=6a8a968f269d8ba85115081dca42cb0e
+
+2020-01-01 22:07:14,453 WARN [dump-ignore] ignore to save cache file. groupKey=user-server.yaml+DEFAULT_GROUP+840a3150-57d2-43ed-81ea-be337878f9dc, md5=08612ebe88301011c80f4b21c007b7ba, lastModifiedOld=1577887607380, lastModifiedNew=1577887634373
+
