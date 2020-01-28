@@ -33,7 +33,11 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
+    <modules>
+        <module>task-server</module>
+        <module>user-server</module>
+        <module>gateway</module>
+    </modules>
     <build>
         <plugins>
             <plugin>
