@@ -1,5 +1,5 @@
 package com.tomatoclock.taskserver.service;
 
-public class TaskStatisticsService {
+public interface TaskStatisticsService {
 
 }

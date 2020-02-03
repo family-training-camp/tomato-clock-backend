@@ -37,6 +37,7 @@
         <module>task-server</module>
         <module>user-server</module>
         <module>gateway</module>
+        <module>auth-server</module>
     </modules>
     <build>
         <plugins>

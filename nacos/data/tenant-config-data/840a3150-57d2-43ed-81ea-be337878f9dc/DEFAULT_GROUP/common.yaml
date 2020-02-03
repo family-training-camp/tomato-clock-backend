@@ -4,3 +4,13 @@ spring:
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tomato_clock?charset=utf8
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    pool:
+      max-active: 10
+      max-wait: -1
+      max-idle: 10
+      min-idle: 0
+    timeout: 10000
