@@ -1,6 +1,7 @@
 package com.tomatoclock.authserver.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,6 +14,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 
   @Autowired private AuthenticationManager authenticationManager;
+  @Qualifier("userDetailServiceImpl")
   @Autowired private UserDetailsService userDetailsService;
 
   /**
