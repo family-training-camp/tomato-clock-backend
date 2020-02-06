@@ -42,7 +42,7 @@ public class JWTTokenStoreConfig {
   @Bean
   public JwtAccessTokenConverter jwtAccessTokenConverter(){
     JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
-    converter.setSigningKey("test");
+    converter.setSigningKey("signing-key");
     return converter;
   }
 

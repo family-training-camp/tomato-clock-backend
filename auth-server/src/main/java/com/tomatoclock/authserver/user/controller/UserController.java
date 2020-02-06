@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 @RequestMapping("/user")
 public class UserController {
   @Resource private UserService userService;
-  @PostMapping
+  @PostMapping("/register")
   public void register(@RequestBody RegisterUserParam param){
     userService.register(param);
   }

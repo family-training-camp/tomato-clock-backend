@@ -8,10 +8,8 @@ spring:
       config:
         file-extension: yaml
         server-addr: localhost:8848
-        namespace: 840a3150-57d2-43ed-81ea-be337878f9dc
+        namespace: d2306d2d-b394-48dc-95c2-21e73fdec48c
         shared-dataids: common.yaml
         refreshable-dataids: common.yaml
 server:
   port: 9999
-  servlet:
-    context-path: /auth-server

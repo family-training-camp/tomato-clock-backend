@@ -14,9 +14,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @SpringBootApplication
-@EnableResourceServer
-// 声明此服务作为Oauth2服务
-@EnableAuthorizationServer
 public class AuthServerApplication {
 
   public static void main(String[] args) {

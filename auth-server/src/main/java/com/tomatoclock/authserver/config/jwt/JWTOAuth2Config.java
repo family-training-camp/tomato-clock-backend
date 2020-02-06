@@ -19,12 +19,11 @@ import java.util.Arrays;
 public class JWTOAuth2Config extends AuthorizationServerConfigurerAdapter {
   @Autowired private AuthenticationManager authenticationManager;
 
-  @Qualifier("userDetailsServiceBean")
+  @Qualifier("userDetailServiceImpl")
   @Autowired
   private UserDetailsService userDetailsService;
 
   @Autowired private TokenStore tokenStore;
-  @Autowired private DefaultTokenServices tokenServices;
   @Autowired private JwtAccessTokenConverter jwtAccessTokenConverter;
 
   @Autowired private TokenEnhancer jwtTokenEnhancer;

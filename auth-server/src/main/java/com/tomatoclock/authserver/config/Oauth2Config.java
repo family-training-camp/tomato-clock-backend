@@ -2,20 +2,29 @@ package com.tomatoclock.authserver.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
+import org.springframework.security.oauth2.provider.token.TokenStore;
 
+import javax.sql.DataSource;
+
+// 声明此服务作为Oauth2服务
+@EnableAuthorizationServer
 @Configuration
 /** 定义哪些应用程序在OAuth2认证服务中注册 */
 public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 
   @Autowired private AuthenticationManager authenticationManager;
+
   @Qualifier("userDetailServiceImpl")
-  @Autowired private UserDetailsService userDetailsService;
+  @Autowired
+  private UserDetailsService userDetailsService;
 
   /**
    * 定义哪些客户端将被你的服务注册
