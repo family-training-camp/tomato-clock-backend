@@ -8,10 +8,14 @@ spring:
       config:
         file-extension: yaml
         server-addr: localhost:8848
-        namespace: 840a3150-57d2-43ed-81ea-be337878f9dc
-        shared-dataids: common.yaml,task-server.yaml
-        refreshable-dataids: common.yaml,task-server.yaml
+        namespace: d2306d2d-b394-48dc-95c2-21e73fdec48c
+        shared-dataids: common.yaml
+        refreshable-dataids: common.yaml
 server:
   port: 9000
   servlet:
     context-path: /task-server
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9999/auth/user
