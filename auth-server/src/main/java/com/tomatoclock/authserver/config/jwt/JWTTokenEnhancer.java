@@ -1,5 +1,6 @@
 package com.tomatoclock.authserver.config.jwt;
 
+import com.tomatoclock.authserver.user.entity.User;
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
@@ -13,7 +14,8 @@ public class JWTTokenEnhancer implements TokenEnhancer {
   public OAuth2AccessToken enhance(
       OAuth2AccessToken oAuth2AccessToken, OAuth2Authentication oAuth2Authentication) {
     Map<String, Object> additionalInfo = new HashMap<>();
-    additionalInfo.put("additionalInfo", "additionalInfo");
+    additionalInfo.put(
+        "user_id", ((User) oAuth2Authentication.getUserAuthentication().getPrincipal()).getId());
     ((DefaultOAuth2AccessToken) oAuth2AccessToken).setAdditionalInformation(additionalInfo);
     return oAuth2AccessToken;
   }

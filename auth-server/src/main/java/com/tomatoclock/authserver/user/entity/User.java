@@ -7,7 +7,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,12 +22,11 @@ public class User implements UserDetails {
   private String username;
   private String password;
 
-  @OneToMany(mappedBy = "user")
-  private Set<Authority> authorities = new HashSet<>();
+  @ManyToMany(fetch = FetchType.EAGER) private Set<Role> roles = new HashSet<>();
 
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
-    return Collections.EMPTY_LIST;
+    return this.roles;
   }
 
   @Override

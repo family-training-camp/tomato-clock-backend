@@ -2,6 +2,8 @@ package com.tomatoclock.authserver.config.jwt;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
@@ -19,5 +21,14 @@ public class OAuth2ResourceServerConfig extends ResourceServerConfigurerAdapter 
     DefaultTokenServices defaultTokenServices = new DefaultTokenServices();
     defaultTokenServices.setTokenStore(tokenStore);
     resources.tokenServices(defaultTokenServices);
+  }
+
+  @Override
+  public void configure(HttpSecurity http) throws Exception {
+    http.authorizeRequests()
+        .antMatchers(HttpMethod.POST, "/user/register")
+        .permitAll()
+        .anyRequest()
+        .authenticated();
   }
 }
