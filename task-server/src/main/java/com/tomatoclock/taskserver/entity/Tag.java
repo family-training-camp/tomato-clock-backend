@@ -11,5 +11,5 @@ import javax.persistence.Entity;
 public class Tag extends BaseEntity {
   private String tagName;
   private String color;
-  private String userId;
+  private Long userId;
 }
